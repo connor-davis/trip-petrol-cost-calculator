@@ -13,7 +13,7 @@ function App() {
     let consumptionOfDistance = distanceOverOneHundred * averagePetrolUsage();
     let cost = consumptionOfDistance * petrolCost();
 
-    setTripCost(cost);
+    setTripCost(cost.toFixed(2));
     setHasCalculated(true);
   };
 
