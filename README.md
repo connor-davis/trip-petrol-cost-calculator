@@ -1,4 +1,15 @@
-## Usage
+# Trip Petrol Cost Calculator
+This app is a progressive web app (pwa) that will calculate your petrol cost in rands.
+
+## Usage (App)
+When opening the app, you will have 3 inputs. All you need to do is:
+- Enter the distance you are travelling
+- The current cost of petrol per litre
+- The average petrol you think you use
+
+The app will then calculate how much your trip is going to cost in rands.
+
+## Usage (Installing)
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
